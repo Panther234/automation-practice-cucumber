@@ -1,0 +1,969 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 149848600,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I am on Homepage",
+            "match": {
+              "location": "SignPageTestSteps.iAmOnHomepage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 11668956500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 7,
+        "name": "As a User I Should Navigate To SignIn Page Successfully",
+        "description": "",
+        "id": "signin-page-checks;as-a-user-i-should-navigate-to-signin-page-successfully",
+        "after": [
+          {
+            "result": {
+              "duration": 255700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1739471100,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I Click on Sign In link",
+            "match": {
+              "location": "SignPageTestSteps.iClickOnSignInLink()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 63606900,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I can verify that \u0027AUTHENTICATION\u0027 message is displayed",
+            "match": {
+              "location": "SignPageTestSteps.iCanVerifyThatAUTHENTICATIONMessageIsDisplayed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 6,
+            "name": "@Sanity"
+          },
+          {
+            "line": 6,
+            "name": "@Regression"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 27100,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I am on Homepage",
+            "match": {
+              "location": "SignPageTestSteps.iAmOnHomepage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 5450797000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 20,
+        "name": "As a user I can verify The Error Message With InValid Credentials",
+        "description": "",
+        "id": "signin-page-checks;as-a-user-i-can-verify-the-error-message-with-invalid-credentials;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 43400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1492002000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I Click on Sign In link",
+            "match": {
+              "location": "SignPageTestSteps.iClickOnSignInLink()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 153518500,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I enter \"\" in email address field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "",
+                  "offset": 9
+                }
+              ],
+              "location": "SignPageTestSteps.iEnterInEmailAddressField(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 308842700,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I enter \"123456\" in password field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "123456",
+                  "offset": 9
+                }
+              ],
+              "location": "SignPageTestSteps.iEnterInPasswordField(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1542676000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I click on \u0027Sign In\u0027 button",
+            "match": {
+              "location": "SignPageTestSteps.iClickOnSignInButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 94039300,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I verify Error message \"An email address required.\" displayed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "An email address required.",
+                  "offset": 24
+                }
+              ],
+              "location": "SignPageTestSteps.iVerifyErrorMessageDisplayed(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 11,
+            "name": "@Smoke"
+          },
+          {
+            "line": 11,
+            "name": "@Sanity"
+          },
+          {
+            "line": 11,
+            "name": "@Regression"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 33000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I am on Homepage",
+            "match": {
+              "location": "SignPageTestSteps.iAmOnHomepage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 6995365900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 21,
+        "name": "As a user I can verify The Error Message With InValid Credentials",
+        "description": "",
+        "id": "signin-page-checks;as-a-user-i-can-verify-the-error-message-with-invalid-credentials;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 78900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2747726100,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I Click on Sign In link",
+            "match": {
+              "location": "SignPageTestSteps.iClickOnSignInLink()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 221761800,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I enter \"abcd@gmail.com\" in email address field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "abcd@gmail.com",
+                  "offset": 9
+                }
+              ],
+              "location": "SignPageTestSteps.iEnterInEmailAddressField(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 199239300,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I enter \"\" in password field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "",
+                  "offset": 9
+                }
+              ],
+              "location": "SignPageTestSteps.iEnterInPasswordField(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1037411900,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I click on \u0027Sign In\u0027 button",
+            "match": {
+              "location": "SignPageTestSteps.iClickOnSignInButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 49324700,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I verify Error message \"Password is required.\" displayed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Password is required.",
+                  "offset": 24
+                }
+              ],
+              "location": "SignPageTestSteps.iVerifyErrorMessageDisplayed(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 11,
+            "name": "@Smoke"
+          },
+          {
+            "line": 11,
+            "name": "@Sanity"
+          },
+          {
+            "line": 11,
+            "name": "@Regression"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 48700,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I am on Homepage",
+            "match": {
+              "location": "SignPageTestSteps.iAmOnHomepage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 5815747600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 22,
+        "name": "As a user I can verify The Error Message With InValid Credentials",
+        "description": "",
+        "id": "signin-page-checks;as-a-user-i-can-verify-the-error-message-with-invalid-credentials;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 73600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1564908800,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I Click on Sign In link",
+            "match": {
+              "location": "SignPageTestSteps.iClickOnSignInLink()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 138062800,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I enter \"adfdfgfg\" in email address field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "adfdfgfg",
+                  "offset": 9
+                }
+              ],
+              "location": "SignPageTestSteps.iEnterInEmailAddressField(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 199974200,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I enter \"123456\" in password field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "123456",
+                  "offset": 9
+                }
+              ],
+              "location": "SignPageTestSteps.iEnterInPasswordField(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1071207800,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I click on \u0027Sign In\u0027 button",
+            "match": {
+              "location": "SignPageTestSteps.iClickOnSignInButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 69611800,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I verify Error message \"Invalid email address.\" displayed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Invalid email address.",
+                  "offset": 24
+                }
+              ],
+              "location": "SignPageTestSteps.iVerifyErrorMessageDisplayed(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 11,
+            "name": "@Smoke"
+          },
+          {
+            "line": 11,
+            "name": "@Sanity"
+          },
+          {
+            "line": 11,
+            "name": "@Regression"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 323100,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I am on Homepage",
+            "match": {
+              "location": "SignPageTestSteps.iAmOnHomepage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 5986318000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 23,
+        "name": "As a user I can verify The Error Message With InValid Credentials",
+        "description": "",
+        "id": "signin-page-checks;as-a-user-i-can-verify-the-error-message-with-invalid-credentials;;5",
+        "after": [
+          {
+            "result": {
+              "duration": 98200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1699648400,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I Click on Sign In link",
+            "match": {
+              "location": "SignPageTestSteps.iClickOnSignInLink()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 258367800,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I enter \"abcd@gmail.com\" in email address field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "abcd@gmail.com",
+                  "offset": 9
+                }
+              ],
+              "location": "SignPageTestSteps.iEnterInEmailAddressField(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 186689600,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I enter \"123456\" in password field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "123456",
+                  "offset": 9
+                }
+              ],
+              "location": "SignPageTestSteps.iEnterInPasswordField(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1045656700,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I click on \u0027Sign In\u0027 button",
+            "match": {
+              "location": "SignPageTestSteps.iClickOnSignInButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 71148300,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I verify Error message \"Authentication failed.\" displayed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Authentication failed.",
+                  "offset": 24
+                }
+              ],
+              "location": "SignPageTestSteps.iVerifyErrorMessageDisplayed(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 11,
+            "name": "@Smoke"
+          },
+          {
+            "line": 11,
+            "name": "@Sanity"
+          },
+          {
+            "line": 11,
+            "name": "@Regression"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 62900,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I am on Homepage",
+            "match": {
+              "location": "SignPageTestSteps.iAmOnHomepage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 5801780300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 26,
+        "name": "As a user I can verify that user should Login successfully with valid credentials",
+        "description": "",
+        "id": "signin-page-checks;as-a-user-i-can-verify-that-user-should-login-successfully-with-valid-credentials",
+        "after": [
+          {
+            "result": {
+              "duration": 34900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2151994100,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "I Click on Sign In link",
+            "match": {
+              "location": "SignPageTestSteps.iClickOnSignInLink()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 223018500,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "I Enter Email in email address field",
+            "match": {
+              "location": "SignPageTestSteps.iEnterEmailInEmailAddressField()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 194385300,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "I Enter Password in password field",
+            "match": {
+              "location": "SignPageTestSteps.iEnterPasswordInPasswordField()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1628664900,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "I click on \u0027Sign In\u0027 button",
+            "match": {
+              "location": "SignPageTestSteps.iClickOnSignInButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 124233500,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "I can Verify that Sign out link is displayed",
+            "match": {
+              "location": "SignPageTestSteps.iCanVerifyThatSignOutLinkIsDisplayed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 25,
+            "name": "@Smoke"
+          },
+          {
+            "line": 25,
+            "name": "@Regression"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 98100,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I am on Homepage",
+            "match": {
+              "location": "SignPageTestSteps.iAmOnHomepage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 6477503900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 34,
+        "name": "As a user I can verify that user should Logout successfully",
+        "description": "",
+        "id": "signin-page-checks;as-a-user-i-can-verify-that-user-should-logout-successfully",
+        "after": [
+          {
+            "result": {
+              "duration": 76200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1896293600,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "I Click on Sign In link",
+            "match": {
+              "location": "SignPageTestSteps.iClickOnSignInLink()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 240510700,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "I Enter Email in email address field",
+            "match": {
+              "location": "SignPageTestSteps.iEnterEmailInEmailAddressField()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 255231900,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "I Enter Password in password field",
+            "match": {
+              "location": "SignPageTestSteps.iEnterPasswordInPasswordField()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1521236000,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "I click on \u0027Sign In\u0027 button",
+            "match": {
+              "location": "SignPageTestSteps.iClickOnSignInButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1897960600,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "I click on \u0027Sign Out\u0027 Link",
+            "match": {
+              "location": "SignPageTestSteps.iClickOnSignOutLink()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 125859900,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "I can Verify that Sign in link is displayed",
+            "match": {
+              "location": "SignPageTestSteps.iCanVerifyThatSignInLinkIsDisplayed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 33,
+            "name": "@Regression"
+          }
+        ]
+      }
+    ],
+    "name": "SignIn Page checks",
+    "description": "",
+    "id": "signin-page-checks",
+    "keyword": "Feature",
+    "uri": "src/test/java/resources/featurefile/SignPageTest.feature"
+  }
+]
